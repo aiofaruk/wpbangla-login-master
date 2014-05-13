@@ -1,15 +1,12 @@
 /*
 Plugin Name: WPBangla Login Master
-Description: All-in-one solution for all login related security problems.
-Plugin URI: https://github.com/shameemreza/wpbangla-login-master
-Author: Shameem Reza
-Author URI: http://shameemreza.info
 Version: 1.0.0
 License: GPL2 or latter
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: wpb
-
 */
+
+Core Contributer: Shameem Reza, Omar faruk, Al-amien Gazi and Entire WordPress Bangladesh Group.
 
 1. Description:
 
