@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WPBangla Login Master
-Plugin URI: http://wpbangla.com
+Plugin URI: https://github.com/shameemreza/wpbangla-login-master
 Description: Gives your site a bodyguard by adding captcha to login and register forms, auto-bans malicious IPs and logs all suspicious activities.
 Author: Shameem Reza
 Version: 1.0
