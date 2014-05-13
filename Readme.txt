@@ -27,9 +27,9 @@ Feature:
 * Manually ban any IP.
 * Native, easy to use WP GUI.
 
-Online Doccumentation: http://demo.shameemreza.info/wpblogin
+[Online Doccumentation](http://demo.shameemreza.info/wpblogin)
 
-A Security Plugin FromWordPress Group Bangladesh: http://www.facebook.com/groups/Wordpress2Smashing/
+[A Security Plugin FromWordPress Group Bangladesh](http://www.facebook.com/groups/Wordpress2Smashing)
 
 2. Installation:
 
