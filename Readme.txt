@@ -25,9 +25,9 @@ All-in-one solution for all login related security problems.
 * Manually ban any IP.
 * Native, easy to use WP GUI.
 
-** <a href="http://demo.shameemreza.info/wpblogin">Online Doccumentation</a> **
+** Online Doccumentation: http://demo.shameemreza.info/wpblogin
 
-= A Security Plugin From <a href="http://www.facebook.com/groups/Wordpress2Smashing/">WordPress Group Bangladesh</a>. =
+= A Security Plugin From WordPress Group Bangladesh: http://www.facebook.com/groups/Wordpress2Smashing/
 
 == Installation ==
 
@@ -65,18 +65,6 @@ There are several options to remove the ban:
 * Login on the site via another IP and delete the ban
 * Open your WP database, wp_options table and delete the row that has “option name” set to “wpb_login_master_banned”
 * Open wpb-login-master.php and place the following code as the first line of init() function (around line #29): clear_banned();
-
-== Screenshots ==
-
-1. Redirectins
-2. Setting
-3. Banned IPs
-4. Log
-5. After Logout
-6. Before Login
-7. Wrong Password Error
-
-== Arbitrary section ==
 
 == Configuration ==
 
