@@ -1,0 +1,11 @@
+Installation:
+
+Installation of "WPBangla Login Master Plugin" is very easy. If you dont know how to install wordpress plugin, please follow the bellows instruction to install "WPbangla Login Master",
+
+a. Download the ZIP package.
+b. Open WordPress admin and go to Plugins -> Add New -> Upload. Browse for the ZIP file wpb-login-master.zip on your computer and hit “Install Now”.
+c. Activate the plugin.
+
+Requirements:
+
+* WordPress v3.5 or greater
