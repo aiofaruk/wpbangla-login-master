@@ -6,7 +6,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: wpb
 */
 
-Core Contributer: Shameem Reza, Omar faruk, Al-amien Gazi and Entire WordPress Bangladesh Group.
+Concept and developed: Shameem Reza
 
 1. Description:
 
