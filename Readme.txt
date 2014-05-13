@@ -11,11 +11,11 @@ Text Domain: wpb
 
 */
 
-1. Description:
+<h3>1. Description:</h3>
 
 'WPB Login Master' Your site bodygurd need it. It will takecare of your site login related security.
 
-Feature:
+<h3>Feature:</h3>
 
 * Automatically ban IPs that brute-force attack you.
 * Detailed log of all login-related activities.
@@ -27,40 +27,40 @@ Feature:
 * Manually ban any IP.
 * Native, easy to use WP GUI.
 
-Online Doccumentation: http://demo.shameemreza.info/wpblogin
+<a href="http://demo.shameemreza.info/wpblogin" target="_blank">Online Doccumentation</a>
 
-A Security Plugin From WordPress Group Bangladesh: http://www.facebook.com/groups/Wordpress2Smashing/
+A Security Plugin From <a href="http://www.facebook.com/groups/Wordpress2Smashing/"target="_blank">WordPress Group Bangladesh.</a>
 
-2. Installation:
+<h3>2. Installation:</h3>
 
 a. Download the ZIP package.
 b. Open WordPress admin and go to Plugins -> Add New -> Upload. Browse for the ZIP file wpb-login-master.zip on your computer and hit “Install Now”.
 c. Activate the plugin.
 
-Requirements:
+<h3>Requirements:</h3>
 
 * WordPress v3.5 or greater
 
 
-3.Frequently Asked Questions:
+<h3>3.Frequently Asked Questions:</h3>
 
-i). Will it work on my theme?
+<b>i). Will it work on my theme?</b>
 
 Yes! WPB Login Master works with all themes.
 
-bii)ill it work with my plugins?
+<b>bii)ill it work with my plugins?</b>
 
 It will work with all non-security related plugins. Please contact us if you want to use it with other security plugins.
 
-iii). Will it work with my custom login form?
+<b>iii). Will it work with my custom login form?</b>
 
 Yes if your form uses all actions and filters needed by WPB Login Master. Otherwise it wont.
 
-iv). Will this plugin slow my site down?
+<b>iv). Will this plugin slow my site down?</b>
 
 No.
 
-v). I banned myself! What to do? Help!
+<b>v). I banned myself! What to do? Help!</b>
 
 There are several options to remove the ban:
 
@@ -69,11 +69,11 @@ There are several options to remove the ban:
 * Open your WP database, wp_options table and delete the row that has “option name” set to “wpb_login_master_banned”
 * Open wpb-login-master.php and place the following code as the first line of init() function (around line #29): clear_banned();
 
-4. Configuration
+<h3>4. Configuration</h3>
 
 All WPB Login Master’s options are configured in WP admin under Settings – WPB Login Master.
 
-i). Redirections by user roles
+<h6>i). Redirections by user roles<h/h6>
 
 After login users that have a certain role can be redirected using one of five available rules. Custom user roles are fully supported.
 
@@ -83,23 +83,23 @@ After login users that have a certain role can be redirected using one of five a
 * Redirect to a random post – you can choose a category or set it to “all categories”
 * Redirect to the most recent post – you can choose a category or set it to “all categories”
 
-ii). Redirections by users
+<h6>ii). Redirections by users<h6>
 
 After login users can be redirected using one of five available rules. Please note that redirections defined on usernames are parsed before the ones on roles. Rules are the same as for roles, see above.
 
-iii). Banned IPs
+<h6>iii). Banned IPs<h6>
 
 IP can get banned in two ways; automatically by failing to login x times in y minutes (see options tab), or manually by entering the IP. IPs are entered in standard notation: abc.abc.abc.abc, wildcards (*, %) are not supported and leading zeroes have to be removed. Ie this is not good: 192.168.001.017, it should read 192.168.1.17. Bans can be manually deleted or they will be automatically removed once the ban time passes.
 
 For automatically banned IPs ban time is set in options, while for manual ones you can set the time to your liking in the “Add new ban” dialog. Depending on the set option banned IPs will either be blocked from the entire site and a custom message (see options) will be displayed to them, or they’ll be able to access the site but wont be able to login until ban is removed.
 
-iv). Log
+<h6>iv). Log</h6>
 
 Log displays all events on the site related to logins, logouts, failed logins and bans. You can search the records and sort them in ascending or descending order.
 
 “Delete all log entries” will completely remove all log entries. Please note that **there’s no undo.**
 
-v). Settings – Ban rules
+<h6>v). Settings – Ban rules</h6>
 
 * Maximum number of failed login attempts before ban – defines the number of failed attempts user has to make in a set amount of time before his IP gets banned. Please note that opening the login form or just clicking the “Login” button does not count as a failed attempt. You have to enter a username and a password and click “Login”.
 * Default ban time – when an IP gets auto-banned this is the amount of the user wont be able to login/access the site. After the time passes ban is automatically removed.
@@ -107,14 +107,14 @@ v). Settings – Ban rules
 * Message for banned users – if option above is set to “can’t access the whole site” this is the message banned users will see. HTML is fully supported.
 * Login notice – message displayed above login form to inform users they might get banned. HTML is fully supported.
 
-vi). Settings – Email notifications
+<h6>vi). Settings – Email notifications</h6>
 
 * Notification e-mail – admin’s e-mail where the notifications will be send to.
 * Send notification on failed login – admin will get an email for every failed login.
 * Send notification on successful login – admin will get an email for every successful login.
 * Send notification when new IP gets banned – admin will get an email every time someone gets banned. We recommend keeping this setting enabled.
 
-vii). Settings – Captcha settings
+<h6>vii). Settings – Captcha settings</h6>
 
 * Protect login and register forms with captcha – if enabled those two forms will be protected by an easy to read and solve captcha image.
 * Captcha background color – captcha image background color. Transparent is supported.
